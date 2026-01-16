@@ -42,7 +42,7 @@ spring:
       port: 6379
 
   kafka:
-    bootstrap-servers: kafka:9093
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: user-api
       auto-offset-reset: earliest
