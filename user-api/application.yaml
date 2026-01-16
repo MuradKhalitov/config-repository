@@ -1,3 +1,6 @@
+server:
+  port: 8080
+
 spring:
   application:
     name: user-api
@@ -39,7 +42,7 @@ spring:
       port: 6379
 
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: kafka:9092
     consumer:
       group-id: user-api
       auto-offset-reset: earliest
